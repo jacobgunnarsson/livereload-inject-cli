@@ -1,16 +1,24 @@
 {
   "name": "livereload-inject-cli",
-  "version": "1.0.0",
   "description": "An npm CLI for injecting the LiveReload script",
-  "main": "bin/bin",
+  "author": "jacob.gunnarsson@hyperisland.se",
+  "tags": [ "livereload", "inject", "command", "cli", "server", "build" ],
+  "version": "1.0.0",
+  "license": "ISC",
+  "homepage": "https://github.com/jacobgunnarsson/livereload-inject-cli#readme",
+
+  "main": "index.js",
+
+  "bin": {
+    "livereload-inject": "./bin/livereload-inject"
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacobgunnarsson/livereload-inject-cli.git"
   },
-  "author": "jacob.gunnarsson@hyperisland.se",
-  "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/jacobgunnarsson/livereload-inject-cli/issues"
-  },
-  "homepage": "https://github.com/jacobgunnarsson/livereload-inject-cli#readme"
+  }
 }
