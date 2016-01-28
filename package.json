@@ -10,7 +10,7 @@
     "server",
     "build"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "ISC",
   "homepage": "https://github.com/jacobgunnarsson/livereload-inject-cli#readme",
   "main": "lib/livereload-inject",
