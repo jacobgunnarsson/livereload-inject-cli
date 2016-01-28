@@ -1,6 +1,6 @@
 {
   "name": "livereload-inject-cli",
-  "description": "An npm CLI for injecting the LiveReload script",
+  "description": "An npm CLI for injecting the LiveReload <script> snippet",
   "author": "jacob.gunnarsson@hyperisland.se",
   "tags": [
     "livereload",
@@ -13,7 +13,7 @@
   "version": "1.0.0",
   "license": "ISC",
   "homepage": "https://github.com/jacobgunnarsson/livereload-inject-cli#readme",
-  "main": "lib/livereload-inject.js",
+  "main": "lib/livereload-inject",
   "bin": {
     "livereload-inject": "./bin/livereload-inject"
   },

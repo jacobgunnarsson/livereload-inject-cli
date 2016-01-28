@@ -16,14 +16,14 @@ An npm scripts use case could look something like this;
 
 ## Usage
 
-`livereload-inject-cli <target file path> <destination path> [OPTIONS]`
+`livereload-inject-cli <target file path> <destination file path> [OPTIONS]`
 
 Where;
 ```
 <target file path>
     The file to be injected with the livereload <script> snippet
 
-<destination path>
+<destination file path>
     Optional. The destination to where the injected file will be written.
     If no destination path is provided it the target file will be overwritten.
 
