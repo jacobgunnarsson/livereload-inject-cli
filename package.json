@@ -11,7 +11,7 @@
     "build"
   ],
   "version": "1.0.1",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/jacobgunnarsson/livereload-inject-cli#readme",
   "main": "lib/livereload-inject",
   "bin": {
