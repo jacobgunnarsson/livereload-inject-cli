@@ -1,11 +1,11 @@
 # livereload-inject-cli
-livereload-inject-cli is a super simple CLI tool to inject the [livereload JS
+livereload-inject-cli is a simple CLI tool to inject the [livereload JS
 snippet](http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-)
 into a specified file, nothing more. By default the injection is done at the end
 of `<body>`. I originally wrote it for a project using npm as a build tool,
 in need of livereload, and couldn't find a good already existing solution.
 
-An npm scripts use case could maybe look something like this;
+An npm scripts use case could look something like this;
 
 ```
 "scripts": {
